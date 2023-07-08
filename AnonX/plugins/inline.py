@@ -7,6 +7,7 @@ from config import BANNED_USERS, MUSIC_BOT_NAME
 from AnonX import app
 from AnonX.utils.inlinequery import answer
 
+
 @app.on_inline_query(~BANNED_USERS)
 async def inline_query_handler(client, query):
     text = query.query.strip().lower()
