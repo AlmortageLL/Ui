@@ -8,23 +8,23 @@ def setting_markup(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text="ᴀᴜᴅɪᴏ ǫᴜᴀʟɪᴛʏ", callback_data="AQ"
+                text="جودة الصوت", callback_data="AQ"
             ),
             InlineKeyboardButton(
-                text="ᴠɪᴅᴇᴏ ǫᴜᴀʟɪᴛʏ", callback_data="VQ"
-            ),
-        ],
-        [
-            InlineKeyboardButton(
-                text="ᴀᴜᴛʜ ᴜsᴇʀs", callback_data="AU"
-            ),
-            InlineKeyboardButton(
-                text="ᴄʟᴇᴀɴ ᴍᴏᴅᴇ", callback_data="CM"
+                text="جودة الفيديو", callback_data="VQ"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="• sᴜᴩᴩᴏʀᴛ •", url=f"{SUPPORT_GROUP}",
+                text="المصادقه", callback_data="AU"
+            ),
+            InlineKeyboardButton(
+                text="وضع التنظيف", callback_data="CM"
+            ),
+        ],
+        [
+            InlineKeyboardButton(
+                text="⌞ѕᴏụʀᴄᴇ ᴀʟᴍᴏʀᴛᴀɢᴇʟ⌝", url=f"https://t.me/AlmortagelTech",
             ),
             InlineKeyboardButton(
                 text=_["CLOSE_BUTTON"], callback_data="close"
