@@ -9,17 +9,17 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="اضف البوت لجروبك",
+                text="اضغط لاضافتي لمجموعتك✅",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
         [
             InlineKeyboardButton(
-                text="الاوامر",
+                text="🗒 الاوامر",
                 callback_data="settings_back_helper",
             ),
             InlineKeyboardButton(
-                text="sᴇᴛᴛɪɴɢs", callback_data="settings_helper"
+                text="المساعدة", callback_data="settings_helper"
             ),
         ],
      ]
@@ -30,26 +30,26 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="اضف البوت لجروبك",
+                text="اضغط لاضافتي لمجموعتك✅",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
         [
             InlineKeyboardButton(
-                text="الاوامر", callback_data="settings_back_helper"
+                text="🗒 الاوامر", callback_data="settings_back_helper"
             )
         ],
         [
             InlineKeyboardButton(
-                text="جروب الدعم", url=config.SUPPORT_GROUP
+                text="✨️ مطور السورس ✨️]ِ", url=f"https://t.me/ALMORTAGEL_12"
             ),
             InlineKeyboardButton(
-                text="المطور", user_id=OWNER
+                text="👤 مطور البوت", user_id=OWNER
             )
         ],
         [
             InlineKeyboardButton(
-                text="السورس", url=config.SUPPORT_CHANNEL
+                text=" ⌞ ѕᴏụʀᴄᴇ ᴀʟᴍᴏʀᴛᴀɢᴇʟ ⌝ ", url=f"https://t.me/AlmortagelTech"
             )
         ],
      ]
